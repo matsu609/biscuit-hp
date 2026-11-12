@@ -1,0 +1,12 @@
+{
+  "downloaded_resources": 107,
+  "download_failures": {},
+  "checked_direct_local_references": 193,
+  "missing_references": [],
+  "visual_test": "Browser launch blocked by environment socket permissions. Desktop/mobile appearance and interactions require preview validation.",
+  "external_dependencies": [
+    "Google Maps iframe",
+    "Google Analytics",
+    "Sakura/TypeSquare webfont runtime (font service availability and domain entitlement unverified)"
+  ]
+}

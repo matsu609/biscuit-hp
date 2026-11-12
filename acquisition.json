@@ -1,0 +1,546 @@
+{
+  "pages": [
+    "https://petsalon-biscuit.com/",
+    "https://petsalon-biscuit.com/price/",
+    "https://petsalon-biscuit.com/hotel/",
+    "https://petsalon-biscuit.com/about/"
+  ],
+  "assets": {
+    "https://petsalon-biscuit.com/": {
+      "path": "index.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 65370
+    },
+    "https://petsalon-biscuit.com/about/": {
+      "path": "about/index.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 59914
+    },
+    "https://petsalon-biscuit.com/hotel/": {
+      "path": "hotel/index.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 65555
+    },
+    "https://petsalon-biscuit.com/price/": {
+      "path": "price/index.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 68560
+    },
+    "https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic%7CRoboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&ver=7.1.4": {
+      "path": "assets/f31084318868eba7.css",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 6786
+    },
+    "https://petsalon-biscuit.com/wp-content/cache/autoptimize/autoptimize_single_18662f1e4d2dce6cd02e60a2b14d7786.php?ver=1793671443": {
+      "path": "assets/64c70e04b8079565.css",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 14140
+    },
+    "https://petsalon-biscuit.com/wp-content/cache/autoptimize/autoptimize_single_217a95024e154ff8d8f1a32d4d01b80e.php?ver=1728323325": {
+      "path": "assets/fc23e3fef61ecd15.css",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 5646
+    },
+    "https://petsalon-biscuit.com/wp-content/cache/autoptimize/autoptimize_single_769116e03fe1dc681fff35109d0e1625.php?ver=1793792070": {
+      "path": "assets/2f4a680fe184dfa7.css",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 14147
+    },
+    "https://petsalon-biscuit.com/wp-content/cache/autoptimize/autoptimize_single_953f94779f5ae871f5669c6b4bb84a71.php?ver=1728278703": {
+      "path": "assets/ebade6f2352374c2.css",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 9165
+    },
+    "https://petsalon-biscuit.com/wp-content/cache/autoptimize/autoptimize_single_db2c539c2173a1aca506bdd8fdb421c7.php?ver=1728278701": {
+      "path": "assets/988c0d95ee5670a7.css",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 1152
+    },
+    "https://petsalon-biscuit.com/wp-content/cache/autoptimize/autoptimize_single_e057d7d0a6f9d128e3524b2ecb34f9bb.php?ver=1728278704": {
+      "path": "assets/45108f2f0f448be3.css",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 8301
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.24.5": {
+      "path": "assets/560cea5a014422f4.css",
+      "content_type": "text/css",
+      "bytes": 10260
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.24.5": {
+      "path": "assets/d98f52c3b9b933d3.css",
+      "content_type": "text/css",
+      "bytes": 60705
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.24.5": {
+      "path": "assets/c2691a808ea27c74.css",
+      "content_type": "text/css",
+      "bytes": 4296
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=3.24.5": {
+      "path": "assets/f1c64cf2a6e270ae.css",
+      "content_type": "text/css",
+      "bytes": 232
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.24.5": {
+      "path": "assets/b47bb33b7f75ec79.css",
+      "content_type": "text/css",
+      "bytes": 600
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.24.5": {
+      "path": "assets/e4b7a224cf3e0fee.css",
+      "content_type": "text/css",
+      "bytes": 254
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.24.5": {
+      "path": "assets/8a740f1ce64a555f.css",
+      "content_type": "text/css",
+      "bytes": 704
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.24.5": {
+      "path": "assets/08531e6853c99852.js",
+      "content_type": "application/javascript",
+      "bytes": 80657
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.24.5": {
+      "path": "assets/9dcb4b44d5dd46b4.js",
+      "content_type": "application/javascript",
+      "bytes": 41321
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.24.5": {
+      "path": "assets/4e9c0ef69a73e119.js",
+      "content_type": "application/javascript",
+      "bytes": 4997
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.24.5": {
+      "path": "assets/8e53ac21a7c41e45.css",
+      "content_type": "text/css",
+      "bytes": 198
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pop.min.css?ver=3.24.5": {
+      "path": "assets/ee08534176744030.css",
+      "content_type": "text/css",
+      "bytes": 278
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5": {
+      "path": "assets/29500ca969cf7a09.css",
+      "content_type": "text/css",
+      "bytes": 16471
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=11.3.0": {
+      "path": "assets/24e727b6d22bcc3e.js",
+      "content_type": "application/javascript",
+      "bytes": 11925
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/wp-content-copy-protector/images/warning.png": {
+      "path": "assets/d1cd8a6d4b6a34cc.png",
+      "content_type": "image/png",
+      "bytes": 483
+    },
+    "https://petsalon-biscuit.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.1.1": {
+      "path": "assets/6ad9ec86fcb8d07c.js",
+      "content_type": "application/javascript",
+      "bytes": 2749
+    },
+    "https://petsalon-biscuit.com/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.1.1": {
+      "path": "assets/af42855a6bd40a8a.css",
+      "content_type": "text/css",
+      "bytes": 7212
+    },
+    "https://petsalon-biscuit.com/wp-content/themes/hello-elementor/style.min.css?ver=3.1.1": {
+      "path": "assets/ca11ed2a94176968.css",
+      "content_type": "text/css",
+      "bytes": 5501
+    },
+    "https://petsalon-biscuit.com/wp-content/themes/hello-elementor/theme.min.css?ver=3.1.1": {
+      "path": "assets/627f385a8f314322.css",
+      "content_type": "text/css",
+      "bytes": 5146
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc13-1024x683.jpg": {
+      "path": "assets/22564537805127f2.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 110045
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc13-1536x1024.jpg": {
+      "path": "assets/ffa8b5448af89233.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 202229
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc13-300x200.jpg": {
+      "path": "assets/8b3c2499e7fbf64d.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 18095
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc13-768x512.jpg": {
+      "path": "assets/b0e26f67dec71b2c.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 71128
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc13.jpg": {
+      "path": "assets/bbbba17d7ad7a0f8.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 401262
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc15-1024x683.jpg": {
+      "path": "assets/cf8aad2683e21802.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 72268
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc15-1536x1024.jpg": {
+      "path": "assets/b79461192d07ca9e.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 146522
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc15-300x200.jpg": {
+      "path": "assets/bf8afdd408788976.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 12467
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc15-768x512.jpg": {
+      "path": "assets/5d15fbdaf3c691d9.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 45454
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc15.jpg": {
+      "path": "assets/a7ead3ebf5a23268.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 366598
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/cropped-inumark_3-180x180.png": {
+      "path": "assets/7f770e2ea121ad4e.png",
+      "content_type": "image/png",
+      "bytes": 9976
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/cropped-inumark_3-192x192.png": {
+      "path": "assets/f896a29550fe9650.png",
+      "content_type": "image/png",
+      "bytes": 10853
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/cropped-inumark_3-32x32.png": {
+      "path": "assets/f6b406fceed6513b.png",
+      "content_type": "image/png",
+      "bytes": 1295
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/hotel2-300x200.jpg": {
+      "path": "assets/f3ac15f69b680916.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 28415
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/hotel2.jpg": {
+      "path": "assets/1b7d06868a069969.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 55212
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/inumark.png": {
+      "path": "assets/d069b425ee1c6ed8.png",
+      "content_type": "image/png",
+      "bytes": 2867
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/inumark_3-150x150.png": {
+      "path": "assets/2d464bd3f4db5ee5.png",
+      "content_type": "image/png",
+      "bytes": 6224
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/inumark_3.png": {
+      "path": "assets/9fca5fcea8258c04.png",
+      "content_type": "image/png",
+      "bytes": 3887
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/sat2-300x200.jpg": {
+      "path": "assets/120f5aa48d26fc4a.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 34741
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/sat2.jpg": {
+      "path": "assets/0db0a45f172ee888.jpg",
+      "content_type": "image/jpeg",
+      "bytes": 77602
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/shopn-300x66.png": {
+      "path": "assets/4cce182346384a2c.png",
+      "content_type": "image/png",
+      "bytes": 6241
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/shopn.png": {
+      "path": "assets/248a1c8582eba245.png",
+      "content_type": "image/png",
+      "bytes": 4481
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/elementor/thumbs/inumark-qglgprwav6wuvt8ieui57hiakh69iraeqpnsugbjls.png": {
+      "path": "assets/5da89983259e1854.png",
+      "content_type": "image/png",
+      "bytes": 1913
+    },
+    "https://petsalon-biscuit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1": {
+      "path": "assets/9ce98b0f62812afa.js",
+      "content_type": "application/javascript",
+      "bytes": 13577
+    },
+    "https://petsalon-biscuit.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": {
+      "path": "assets/6babb1926af1d457.js",
+      "content_type": "application/javascript",
+      "bytes": 87553
+    },
+    "https://petsalon-biscuit.com/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2": {
+      "path": "assets/6068184576b94e4a.js",
+      "content_type": "application/javascript",
+      "bytes": 18674
+    },
+    "https://webfonts.sakura.ne.jp/js/sakurav3.js?&fadein=0&ver=3.1.4": {
+      "path": "assets/a54af2dd830a7319.js",
+      "content_type": "application/javascript",
+      "bytes": 130321
+    },
+    "https://www.googletagmanager.com/gtag/js?id=G-QSM2NH0T3X": {
+      "path": "assets/9993865640feea4b.bin",
+      "content_type": "application/javascript; charset=UTF-8",
+      "bytes": 541964
+    },
+    "https://www.googletagmanager.com/gtag/js?id=GT-5R7GTHKN": {
+      "path": "assets/07029af024e27e0f.bin",
+      "content_type": "application/javascript; charset=UTF-8",
+      "bytes": 542127
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf": {
+      "path": "assets/5da69473dd9a7b5e.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46164
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXuAj-lg.ttf": {
+      "path": "assets/d8b35333e951b9e2.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46516
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf": {
+      "path": "assets/1d93757d4ae55157.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46556
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf": {
+      "path": "assets/8b5dd3c6f579c93f.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46444
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf": {
+      "path": "assets/a94867f6c4f07af0.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46392
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf": {
+      "path": "assets/57840d188d076ff0.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46152
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf": {
+      "path": "assets/def8cea2b3d1f937.ttf",
+      "content_type": "font/ttf",
+      "bytes": 45952
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf": {
+      "path": "assets/3c93c68b7b1962bb.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46324
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf": {
+      "path": "assets/a44854ad440b070e.ttf",
+      "content_type": "font/ttf",
+      "bytes": 46220
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf": {
+      "path": "assets/c44a41dc0c1c25a0.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44900
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf": {
+      "path": "assets/a0ab9869bed1d244.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44864
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEalmUiA8.ttf": {
+      "path": "assets/5b3d973cf49707b8.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44964
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf": {
+      "path": "assets/8ebef1be9847e12d.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44820
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf": {
+      "path": "assets/c961e282dd6d8743.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44948
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf": {
+      "path": "assets/212ed85bd6e1de21.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44792
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf": {
+      "path": "assets/3001ffbd8d2d6b85.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44796
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf": {
+      "path": "assets/fa6d7d8703e6f432.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44744
+    },
+    "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf": {
+      "path": "assets/98b910f0208e132f.ttf",
+      "content_type": "font/ttf",
+      "bytes": 44724
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf": {
+      "path": "assets/712df8cd0373f958.ttf",
+      "content_type": "font/ttf",
+      "bytes": 27992
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf": {
+      "path": "assets/ae5fe26220b31e17.ttf",
+      "content_type": "font/ttf",
+      "bytes": 27980
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf": {
+      "path": "assets/59f804a0f6197a71.ttf",
+      "content_type": "font/ttf",
+      "bytes": 28036
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf": {
+      "path": "assets/430bc50ffe91ef18.ttf",
+      "content_type": "font/ttf",
+      "bytes": 28000
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf": {
+      "path": "assets/9d44391107880615.ttf",
+      "content_type": "font/ttf",
+      "bytes": 27952
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf": {
+      "path": "assets/33da2dd2cc8aba2e.ttf",
+      "content_type": "font/ttf",
+      "bytes": 27872
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf": {
+      "path": "assets/a9a89d88d784c899.ttf",
+      "content_type": "font/ttf",
+      "bytes": 27856
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf": {
+      "path": "assets/0e814212f41c8766.ttf",
+      "content_type": "font/ttf",
+      "bytes": 27732
+    },
+    "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf": {
+      "path": "assets/eeb3191b4fa44682.ttf",
+      "content_type": "font/ttf",
+      "bytes": 27868
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/IMG_7017_2.jpg": {
+      "path": "assets/ed17e5c8ca148030.jpg",
+      "bytes": 518847,
+      "content_type": "image/jpeg"
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/cropped-inumark_3.png": {
+      "path": "assets/ee9024994f9237c4.png",
+      "bytes": 38882,
+      "content_type": "image/png"
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc2-14.jpg": {
+      "path": "assets/784bdc30f585d04e.jpg",
+      "bytes": 299973,
+      "content_type": "image/jpeg"
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/IMG_7015_2.jpg": {
+      "path": "assets/f21f3c61835f0254.jpg",
+      "bytes": 539138,
+      "content_type": "image/jpeg"
+    },
+    "https://petsalon-biscuit.com/wp-content/uploads/2023/12/bsc2-37.jpg": {
+      "path": "assets/16cd00ffb8baf08c.jpg",
+      "bytes": 179879,
+      "content_type": "image/jpeg"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/lightbox.26bf6b6c4232d8789c0e.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/lightbox.26bf6b6c4232d8789c0e.bundle.min.js",
+      "bytes": 29116,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/text-path.376669dc13ce66a83828.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/text-path.376669dc13ce66a83828.bundle.min.js",
+      "bytes": 25792,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/accordion.8799675460c73eb48972.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/accordion.8799675460c73eb48972.bundle.min.js",
+      "bytes": 3743,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/alert.cbc2a0fee74ee3ed0419.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/alert.cbc2a0fee74ee3ed0419.bundle.min.js",
+      "bytes": 624,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/counter.02cef29c589e742d4c8c.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/counter.02cef29c589e742d4c8c.bundle.min.js",
+      "bytes": 912,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/progress.985f012a6336ab21cb44.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/progress.985f012a6336ab21cb44.bundle.min.js",
+      "bytes": 791,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/tabs.c2af5be7f9cb3cdcf3d5.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/tabs.c2af5be7f9cb3cdcf3d5.bundle.min.js",
+      "bytes": 3705,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/toggle.31881477c45ff5cf9d4d.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/toggle.31881477c45ff5cf9d4d.bundle.min.js",
+      "bytes": 3770,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/video.78c625e89ab767d621c5.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/video.78c625e89ab767d621c5.bundle.min.js",
+      "bytes": 3237,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/image-carousel.4455c6362492d9067512.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/image-carousel.4455c6362492d9067512.bundle.min.js",
+      "bytes": 432,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js",
+      "bytes": 1360,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/wp-audio.75f0ced143febb8cd31a.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/wp-audio.75f0ced143febb8cd31a.bundle.min.js",
+      "bytes": 349,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/js/container.c65a2a923085e1120e75.bundle.min.js": {
+      "path": "wp-content/plugins/elementor/assets/js/container.c65a2a923085e1120e75.bundle.min.js",
+      "bytes": 9822,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5": {
+      "path": "wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js",
+      "bytes": 143709,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3": {
+      "path": "wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js",
+      "bytes": 11286,
+      "content_type": "application/javascript"
+    },
+    "https://petsalon-biscuit.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.24.5": {
+      "path": "wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js",
+      "bytes": 2752,
+      "content_type": "application/javascript"
+    }
+  },
+  "failures": {}
+}
