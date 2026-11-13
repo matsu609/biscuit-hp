@@ -8,7 +8,7 @@
 
 ## お店への確認
 
-[確認リスト](docs/review-checklist.md) と [現行サイトの照合データ](docs/content-reference.json) を参照してください。料金表の「2027年1月改定」、営業時間・定休日、写真の利用許諾は最終確認が必要です。現在のローカル変更は撮影・ヒアリング準備版です。写真枠と口コミ欄を維持し、`noindex` を設定しています。修正はユーザーの指示により、確認を挟まずGitHubのmainへ反映し、Cloudflare Pagesへデプロイします。
+[確認リスト](docs/review-checklist.md) と [現行サイトの照合データ](docs/content-reference.json) を参照してください。料金表の「2027年1月改定」と写真の利用許諾は最終確認が必要です。営業時間10:00〜19:00・原則無休はユーザー指定により掲載しています。現在のローカル変更は撮影・ヒアリング準備版です。写真枠と口コミ欄を維持し、`noindex` を設定しています。修正はユーザーの指示により、確認を挟まずGitHubのmainへ反映し、Cloudflare Pagesへデプロイします。
 
 ## Cloudflare Pages
 
