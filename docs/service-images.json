@@ -1,0 +1,23 @@
+{
+  "created": "2026-11-14 JST",
+  "images": [
+    {
+      "service": "grooming",
+      "file": "assets/service-grooming-ai.webp",
+      "generated_original": "exec-d51bdb00-be84-495d-aa57-ed70bcae034c.png",
+      "type": "AI生成イメージ。実店舗・実施術・実客室の写真ではありません。撮影後に差し替え予定。"
+    },
+    {
+      "service": "hotel",
+      "file": "assets/service-hotel-ai.webp",
+      "generated_original": "exec-389b910d-ddbf-433e-a652-b0f658c900ce.png",
+      "type": "AI生成イメージ。実店舗・実施術・実客室の写真ではありません。撮影後に差し替え予定。"
+    },
+    {
+      "service": "daycare",
+      "file": "assets/service-daycare-ai.webp",
+      "generated_original": "exec-7a4ddd57-a938-4cfd-b5a3-e30c0d851929.png",
+      "type": "AI生成イメージ。実店舗・実施術・実客室の写真ではありません。撮影後に差し替え予定。"
+    }
+  ]
+}
