@@ -3,9 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <title>ペットサロンビスケット｜港区三田のトリミング・ペットホテル</title>
 <meta name="description" content="港区三田のペットサロンビスケット。小型犬のシャンプー・トリミング、ペットホテル、一時預かり。">
 <style>
+@font-face{font-family:"Zen Maru Gothic";font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/ZenMaruGothic-Medium.woff2") format("woff2")}
+@font-face{font-family:"Zen Maru Gothic";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/ZenMaruGothic-Bold.woff2") format("woff2")}
+@font-face{font-family:"Zen Maru Gothic";font-style:normal;font-weight:900;font-display:swap;src:url("assets/fonts/ZenMaruGothic-Black.woff2") format("woff2")}
+@font-face{font-family:"Noto Sans JP";font-style:normal;font-weight:100 900;font-display:swap;src:url("assets/fonts/NotoSansJP[wght].woff2") format("woff2")}
+
 :root{
   --ink:#3a2e26; --muted:#7a6e66; --line:#ece6df;
   --white:#fff; --soft:#faf7f3;
@@ -205,23 +211,18 @@ footer{background:var(--soft);border-top:1px solid var(--line);padding:40px 0 10
   .notes-toggle{bottom:72px}
 }
 
-/* Finished photo treatment and small-screen accessibility. */
-body{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif}
-.maru,.logo,.eyebrow,h2.sec,.hero h1,.mcard h3,.mcard .price,.room h4,.room .p,.staff h3,.includes h4,.options h4,.hotel-info h4,.steps h4,.bring h4,.reserve h2,.reserve .tel{font-family:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif}
-section,footer{scroll-margin-top:90px}
-.photo{padding:0;background:var(--accent-l);display:block}
-.photo img{display:block;width:100%;height:100%;object-fit:cover}
-.hero-photo .main img{object-position:center}
-.hero-photo .main{box-shadow:0 16px 44px #3a2e2612}
-.menus .photo img{aspect-ratio:4/3}.gallery .photo img{aspect-ratio:1}
-.staff .photo img{aspect-ratio:4/5}
-.ptable tbody th{font-weight:500}.ptable{line-height:1.6}
+/* Content and accessibility additions; palette and type scale follow the supplied design. */
+body{background:var(--soft)}
+section{background:var(--white);scroll-margin-top:90px}
+section.soft{background:var(--soft)}
+.ptable tbody th{font-weight:500;overflow-wrap:anywhere}
 .options li{gap:12px;align-items:start}.options li span:last-child{flex:0 0 48%;text-align:right}
-.room{border-top:4px solid var(--accent)}.room .body{padding-top:24px}
 .hotel-info td{vertical-align:top}.info dd{font-size:14px}
+.points h4{font-size:14px;margin-bottom:8px}.points p{font-weight:500;text-align:left;line-height:1.8}
+.points .interview-label{display:block;font-size:11px;margin-bottom:4px}
 a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-offset:4px}
 .skip{position:absolute;left:8px;top:-100px;background:white;padding:12px;z-index:100}.skip:focus{top:8px}
-@media(max-width:600px){.wrap{padding:0 16px}.hero-grid{gap:30px}.hero h1{font-size:34px}.ptable th,.ptable td{padding:12px 7px;font-size:12px}.ptable th:first-child{width:44%;overflow-wrap:anywhere}.ptable td{white-space:nowrap}.room .body{padding:16px 12px}.room .p{font-size:22px}.rooms{gap:10px}.access dl{grid-template-columns:85px 1fr}.foot table{table-layout:fixed;width:100%;overflow-wrap:anywhere}.foot td:first-child{width:95px;white-space:normal}.staff .photo img{aspect-ratio:4/3}.sticky a{font-size:14px}.info div{padding:14px 12px}.hero-photo .sub{left:-16px}.hotel-info td{font-size:13px}}
+@media(max-width:600px){.ptable th,.ptable td{padding:11px 7px;font-size:12px}.ptable th:first-child{width:44%}.room .body{padding:16px 12px}.room .p{font-size:22px}.access dl{grid-template-columns:85px 1fr}.foot table{table-layout:fixed;width:100%;overflow-wrap:anywhere}.foot td:first-child{width:95px;white-space:normal}.sticky a{font-size:14px}.info div{padding:14px 12px}.hotel-info td{font-size:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
@@ -264,8 +265,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
         </div>
       </div>
       <div class="hero-photo">
-        <div class="ph main photo"><img src="assets/22564537805127f2.jpg" alt="犬の写真" fetchpriority="high" decoding="async"></div>
-        <div class="ph sub photo"><img src="assets/784bdc30f585d04e.jpg" alt="2頭の犬" loading="lazy" decoding="async"></div>
+        <div class="ph main"><svg><use href="#cam"/></svg><b>撮影予定</b>トリミング後の笑顔のワンちゃん<br>（明るい店内で）</div>
+        <div class="ph sub"><svg><use href="#cam"/></svg>スタッフと<br>ワンちゃん</div>
       </div>
     </div>
     <dl class="info">
@@ -286,9 +287,9 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
   </div>
   <div class="wrap">
     <div class="menus">
-      <a class="mcard" href="#price"><div class="ph photo"><img src="assets/16cd00ffb8baf08c.jpg" alt="トリミングの様子" loading="lazy" decoding="async"></div><div class="body"><h3>シャンプー＆カット</h3><p>爪切り・耳掃除・足裏バリカン込み。カットコースは全身カットまでおまかせください。</p><div class="price">シャンプー <b>¥4,730</b>〜</div><span class="more">犬種別の料金を見る →</span></div></a>
-      <a class="mcard" href="#hotel"><div class="ph photo"><img src="assets/cf8aad2683e21802.jpg" alt="店内の様子" loading="lazy" decoding="async"></div><div class="body"><h3>ペットホテル</h3><p>お部屋は4タイプ。旅行や帰省などのお預かりに。夜間スタッフの対応は、お部屋によって異なります。</p><div class="price">1泊 <b>¥6,600</b>〜</div><span class="more">お部屋と料金を見る →</span></div></a>
-      <a class="mcard" href="#hotel"><div class="ph photo"><img src="assets/784bdc30f585d04e.jpg" alt="犬たち" loading="lazy" decoding="async"></div><div class="body"><h3>一時預かり</h3><p>お買い物やお出かけの数時間だけでも。トリミング前後のお預かりは合計3時間まで無料です。</p><div class="price">1時間 <b>¥770</b>〜</div><span class="more">詳しく見る →</span></div></a>
+      <a class="mcard" href="#price"><div class="ph"><svg><use href="#cam"/></svg><b>撮影予定</b>トリミング中の様子</div><div class="body"><h3>シャンプー＆カット</h3><p>爪切り・耳掃除・足裏バリカン込み。カットコースは全身カットまでおまかせください。</p><div class="price">シャンプー <b>¥4,730</b>〜</div><span class="more">犬種別の料金を見る →</span></div></a>
+      <a class="mcard" href="#hotel"><div class="ph"><svg><use href="#cam"/></svg><b>撮影予定</b>ホテルのお部屋</div><div class="body"><h3>ペットホテル</h3><p>お部屋は4タイプ。旅行や帰省などのお預かりに。夜間スタッフの対応は、お部屋によって異なります。</p><div class="price">1泊 <b>¥6,600</b>〜</div><span class="more">お部屋と料金を見る →</span></div></a>
+      <a class="mcard" href="#hotel"><div class="ph"><svg><use href="#cam"/></svg><b>撮影予定</b>サークルでくつろぐ様子</div><div class="body"><h3>一時預かり</h3><p>お買い物やお出かけの数時間だけでも。トリミング前後のお預かりは合計3時間まで無料です。</p><div class="price">1時間 <b>¥770</b>〜</div><span class="more">詳しく見る →</span></div></a>
     </div>
   </div>
 </section>
@@ -325,10 +326,10 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
     <h2 class="sec">ペットホテル・一時預かり</h2>
     <p class="lead">小型犬10kg以下の1泊料金です。ワンちゃんの性格や過ごし方に合わせてお部屋を選べます。</p>
     <div class="rooms">
-      <div class="room"><div class="body"><h4>タワールーム</h4><div class="p">¥6,600<small> /泊</small></div></div></div>
-      <div class="room"><div class="body"><h4>スタンダードルーム</h4><div class="p">¥9,900<small> /泊</small></div></div></div>
-      <div class="room"><div class="body"><h4>デラックスルーム</h4><div class="p">¥13,200<small> /泊</small></div></div></div>
-      <div class="room"><div class="body"><h4>ケージレス</h4><div class="p">¥15,400<small> /泊</small></div></div></div>
+      <div class="room"><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>写真準備中</b>お部屋の写真（撮影予定）</div><div class="body"><h4>タワールーム</h4><div class="p">¥6,600<small> /泊</small></div></div></div>
+      <div class="room"><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>写真準備中</b>お部屋の写真（撮影予定）</div><div class="body"><h4>スタンダードルーム</h4><div class="p">¥9,900<small> /泊</small></div></div></div>
+      <div class="room"><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>写真準備中</b>お部屋の写真（撮影予定）</div><div class="body"><h4>デラックスルーム</h4><div class="p">¥13,200<small> /泊</small></div></div></div>
+      <div class="room"><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>写真準備中</b>お部屋の写真（撮影予定）</div><div class="body"><h4>ケージレス</h4><div class="p">¥15,400<small> /泊</small></div></div></div>
     </div>
     <p class="note-s">夜間スタッフはケージレスのみ常駐しています。ケージレス以外で夜間スタッフをご希望の場合は別途料金が発生いたします。</p>
     <div class="hotel-info">
@@ -338,19 +339,42 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
   </div>
 </section>
 
-<section id="gallery"><div class="wrap"><div class="eyebrow">gallery</div><h2 class="sec">サロンの風景</h2><p class="lead">サロンとワンちゃんたちのひとこま。</p><div class="gallery"><div class="ph photo"><img src="assets/22564537805127f2.jpg" alt="椅子でくつろぐ犬" loading="lazy" decoding="async"><span class="cap">ワンちゃんのひとこま</span></div><div class="ph photo"><img src="assets/16cd00ffb8baf08c.jpg" alt="トリミングの様子" loading="lazy" decoding="async"><span class="cap">トリミング</span></div><div class="ph photo"><img src="assets/784bdc30f585d04e.jpg" alt="ソファの上の2頭の犬" loading="lazy" decoding="async"><span class="cap">サロンの風景</span></div><div class="ph photo"><img src="assets/f21f3c61835f0254.jpg" alt="店舗外観" loading="lazy" decoding="async"><span class="cap">店舗外観</span></div></div></div></section>
+
+<section id="gallery">
+
+  <div class="wrap">
+    <div class="eyebrow">gallery</div>
+    <h2 class="sec">仕上がりギャラリー</h2>
+    <p class="lead">準備中です。ご来店いただいたワンちゃんたちの写真を、飼い主さまの掲載許可を確認したうえでご紹介する予定です。</p>
+    <div class="gallery">
+      <div class="ba"><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>Before<span class="cap">before</span></div><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>After<span class="cap">after</span></div></div>
+      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>トイ・プードル<span class="cap">テディベアカット</span></div>
+      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>シーズー<span class="cap">シーズー</span></div>
+      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>マルチーズ<span class="cap">マルチーズ</span></div>
+      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>チワワ<span class="cap">チワワ</span></div>
+      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>ダックス<span class="cap">ダックス</span></div>
+      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>シュナウザー<span class="cap">シュナウザー</span></div>
+    </div>
+  </div>
+</section>
+
+
 <!-- STAFF -->
 <section class="soft" id="staff">
   <div class="wrap">
-    <div class="eyebrow">about us</div>
-    <h2 class="sec">サロンについて</h2>
+    <div class="eyebrow">staff</div>
+    <h2 class="sec">スタッフ紹介</h2>
     <div class="staff">
-      <div class="ph photo"><img src="assets/ed17e5c8ca148030.jpg" alt="店舗と周辺の風景" loading="lazy" decoding="async"></div>
+      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定</b>スタッフとワンちゃんの写真</div>
       <div>
         <div class="role">動物取扱責任者</div>
         <h3>林 裕子</h3>
-        <div class="msg">港区三田のペットサロンビスケット。シャンプー・トリミング、ペットホテル、一時預かりをご案内しています。ご利用条件や料金は、このページの各メニューをご覧ください。</div>
-        <div class="points"><div>シャンプー・カット</div><div>ペットホテル</div><div>一時預かり</div></div>
+        <div class="msg"><b>ご紹介・メッセージは準備中です。</b><br>林さんへのヒアリング後に、サロンのこだわりやワンちゃんとの接し方を掲載します。</div>
+        <div class="points">
+          <div><span class="interview-label">ヒアリング予定 ①</span><h4>スタッフの技術と育成</h4><p>カット練習の進め方や、お客さまを担当するまでの技術チェック・仕上がりの基準を教えてください。</p></div>
+          <div><span class="interview-label">ヒアリング予定 ②</span><h4>サロンとしてのこだわり</h4><p>プロとして大切にするカットの品質や、高い技術水準を保つための取り組みを伺います。</p></div>
+          <div><span class="interview-label">ヒアリング予定 ③</span><h4>経験と健康への配慮</h4><p>動物病院などでの勤務経験や、健康・医療に関する知識を日々のケアにどう活かしているかを伺います。</p></div>
+        </div>
       </div>
     </div>
   </div>
@@ -379,6 +403,24 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
   </div>
 </section>
 
+<!-- REVIEWS -->
+<section class="soft" id="voice">
+
+  <div class="wrap center">
+    <div class="eyebrow">voice</div>
+    <h2 class="sec">お客さまの声</h2>
+    <p class="lead">Googleマップに寄せられた口コミをご紹介します。</p>
+  </div>
+  <div class="wrap">
+    <div class="reviews">
+      <div class="review"><b>掲載準備中</b><p>Googleの実際の口コミを掲載予定です。</p></div>
+      <div class="review"><b>掲載準備中</b><p>Googleの実際の口コミを掲載予定です。</p></div>
+      <div class="review"><b>掲載準備中</b><p>Googleの実際の口コミを掲載予定です。</p></div>
+    </div>
+    <div class="review-cta"><a href="https://www.google.com/maps/search/?api=1&amp;query=東京都港区三田2-12-1+ペットサロンビスケット" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Googleマップで口コミを見る</a></div>
+  </div>
+</section>
+
 <!-- ACCESS -->
 <section id="access">
   <div class="wrap">
@@ -389,6 +431,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
       <dl>
         <dt>店名</dt><dd>ペットサロンビスケット</dd>
         <dt>住所</dt><dd>東京都港区三田2-12-1</dd>
+        <dt>アクセス</dt><dd>田町駅から徒歩10分</dd>
 
         <dt>営業時間</dt><dd>お電話でお問い合わせください</dd>
         <dt>定休日</dt><dd>お電話でお問い合わせください</dd>
