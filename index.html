@@ -224,6 +224,11 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
 .skip{position:absolute;left:8px;top:-100px;background:white;padding:12px;z-index:100}.skip:focus{top:8px}
 @media(max-width:600px){.ptable th,.ptable td{padding:11px 7px;font-size:12px}.ptable th:first-child{width:44%}.room .body{padding:16px 12px}.room .p{font-size:22px}.access dl{grid-template-columns:85px 1fr}.foot table{table-layout:fixed;width:100%;overflow-wrap:anywhere}.foot td:first-child{width:95px;white-space:normal}.sticky a{font-size:14px}.info div{padding:14px 12px}.hotel-info td{font-size:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+/* Reviews quoted from screenshots supplied by the site owner. */
+.review{text-align:left;justify-content:flex-start;border-style:solid}
+.review blockquote{margin:0;line-height:1.95;flex:1;overflow-wrap:anywhere}
+.review-author{font-weight:700;color:var(--ink);margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
+.review-author span{display:block;font-weight:400;font-size:12px;color:var(--muted);margin-top:2px}
 </style>
 </head>
 <body>
@@ -413,9 +418,9 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
   </div>
   <div class="wrap">
     <div class="reviews">
-      <div class="review"><b>掲載準備中</b><p>Googleの実際の口コミを掲載予定です。</p></div>
-      <div class="review"><b>掲載準備中</b><p>Googleの実際の口コミを掲載予定です。</p></div>
-      <div class="review"><b>掲載準備中</b><p>Googleの実際の口コミを掲載予定です。</p></div>
+<article class="review"><div class="stars" aria-label="5点満点中5点">★★★★★</div><blockquote>いつも可愛くトリミングしてもらっています！<br>一軒家のトリミングサロンで1階がトリミング2階がペットホテルです。<br>受付には大きなソファーとテーブルがありトリミングサロンだと分かりづらいですがおしゃれな雰囲気で気に入っています。<br>スタッフさんも優しくて愛犬も嬉しそうにサロンに入って行くので飼い主も嬉しいです。</blockquote><p class="review-author">s.h さん<span>Googleマップの口コミより</span></p></article>
+<article class="review"><div class="stars" aria-label="5点満点中5点">★★★★★</div><blockquote>初めて利用しましたが、とても丁寧に対応していただき安心してお任せできました。仕上がりも大満足で、とても可愛くしていただきました！愛犬もリラックスして過ごせたようで嬉しかったです。またぜひお願いしたいと思います。ありがとうございました！</blockquote><p class="review-author">koto さん<span>Googleマップの口コミより</span></p></article>
+<article class="review"><div class="stars" aria-label="5点満点中5点">★★★★★</div><blockquote>少し分かりにくい場所にありますが<br>清潔感がありとても素敵なお店です。<br>初めて伺いましたが丁寧にカウンセリングをしていただき、とても可愛く仕上げていただきました。<br>またお願いしたいです。</blockquote><p class="review-author">A A さん<span>Googleマップの口コミより</span></p></article>
     </div>
     <div class="review-cta"><a href="https://www.google.com/maps/search/?api=1&amp;query=東京都港区三田2-12-1+ペットサロンビスケット" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Googleマップで口コミを見る</a></div>
   </div>
