@@ -24,7 +24,8 @@ with sync_playwright() as p:
    for note in page.locator('.breed-note').all():assert note.evaluate('(x)=>x.offsetHeight<25')
   else:assert not page.locator('.mobile-course').first.is_visible()
   assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
-  page.locator('.sticky a[href="#price"]' if width<=900 else '.hero a[href="#price"]').click()
+  assert page.locator('.sticky').count()==0
+  page.locator('.hero a[href="#price"]').click()
   page.wait_for_function("location.hash==='#price' && scrollY>100")
   page.wait_for_timeout(600)
   page.evaluate("scrollTo({top:document.querySelector('.price-wrap').getBoundingClientRect().top+scrollY-100,behavior:'instant'})")
