@@ -1,0 +1,20 @@
+{
+  "source": "ユーザー提供ZIP内の元画像をそのまま配置",
+  "label_basis": "犬種・カット名はユーザーの指示に基づく写真からの推定",
+  "photos": [
+    {
+      "original": "IMG_2020.jpg",
+      "file": "assets/gallery-poodle-teddy.jpg",
+      "breed": "トイ・プードル",
+      "cut": "テディベアカット",
+      "label_basis": "ユーザーの指示により写真の見た目から推定。店長による犬種・正式なカット名の確認は未実施。"
+    },
+    {
+      "original": "IMG_2019.JPG",
+      "file": "assets/gallery-poodle-afro.jpg",
+      "breed": "トイ・プードル",
+      "cut": "アフロカット",
+      "label_basis": "ユーザーの指示により写真の見た目から推定。店長による犬種・正式なカット名の確認は未実施。"
+    }
+  ]
+}

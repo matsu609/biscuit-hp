@@ -290,6 +290,14 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
  .line-float svg{width:20px;height:20px}
  footer{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
 }
+.gallery{align-items:start}
+.gallery-entry{margin:0;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.gallery-entry a{display:block;background:var(--soft)}
+.gallery-entry img{display:block;width:100%;height:auto;aspect-ratio:1108/1477;object-fit:contain}
+.gallery-entry figcaption{padding:12px 14px;line-height:1.6}
+.gallery-entry strong{display:block;font-size:14px}
+.gallery-entry figcaption span{display:block;font-size:13px;color:var(--accent-d);margin-top:3px}
+@media(max-width:600px){.gallery-entry figcaption{padding:10px}.gallery-entry strong{font-size:12px}.gallery-entry figcaption span{font-size:12px}}
 </style>
 </head>
 <body>
@@ -411,10 +419,13 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
   <div class="wrap">
     <div class="eyebrow">gallery</div>
     <h2 class="sec">仕上がりギャラリー</h2>
-    <p class="lead">準備中です。ご来店いただいたワンちゃんたちの写真を、飼い主さまの掲載許可を確認したうえでご紹介する予定です。</p>
+    <p class="lead">ワンちゃんたちの仕上がりをご紹介します。気になるスタイルがありましたら、ご予約時にお聞かせください。</p>
+    <p class="note-s">犬種・カット名は写真からの推定です。</p>
     <div class="gallery">
+      <figure class="gallery-entry"><a href="assets/gallery-poodle-teddy.jpg" target="_blank" rel="noopener noreferrer" aria-label="トイ・プードルのテディベアカットの写真を大きく見る"><img src="assets/gallery-poodle-teddy.jpg" alt="トイ・プードルのテディベアカットの仕上がり" width="1108" height="1477" loading="lazy" decoding="async"></a><figcaption><strong>トイ・プードル</strong><span>テディベアカット</span></figcaption></figure>
+      <figure class="gallery-entry"><a href="assets/gallery-poodle-afro.jpg" target="_blank" rel="noopener noreferrer" aria-label="トイ・プードルのアフロカットの写真を大きく見る"><img src="assets/gallery-poodle-afro.jpg" alt="トイ・プードルのアフロカットの仕上がり" width="1108" height="1477" loading="lazy" decoding="async"></a><figcaption><strong>トイ・プードル</strong><span>アフロカット</span></figcaption></figure>
       <div class="ba"><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>Before<span class="cap">before</span></div><div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>After<span class="cap">after</span></div></div>
-      <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>トイ・プードル<span class="cap">テディベアカット</span></div>
+
       <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>シーズー<span class="cap">シーズー</span></div>
       <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>マルチーズ<span class="cap">マルチーズ</span></div>
       <div class="ph"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定・写真準備中</b>チワワ<span class="cap">チワワ</span></div>
