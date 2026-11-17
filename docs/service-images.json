@@ -1,23 +1,33 @@
 {
-  "created": "2026-11-14 JST",
+  "updated": "2026-11-17 JST",
+  "status": "ユーザーの差し替え案を一度デプロイして確認したい旨の指示に基づき、確認用ページへ反映。正式公開・移行は会長の最終確認後。",
   "images": [
     {
       "service": "grooming",
-      "file": "assets/service-grooming-ai.webp",
-      "generated_original": "exec-d51bdb00-be84-495d-aa57-ed70bcae034c.png",
-      "type": "AI生成イメージ。実店舗・実施術・実客室の写真ではありません。撮影後に差し替え予定。"
+      "file": "assets/service-grooming-real.webp",
+      "proposal_photo_id": "28",
+      "original": "LINE_ALBUM_素材写真_261117_17.jpg",
+      "original_sha256": "785006f6d437d05af711d9b575317a26c1614794d50abe93cec588639ae12f3f",
+      "type": "ユーザー提供のビスケット実写。確認用ページへの掲載。"
     },
     {
       "service": "hotel",
-      "file": "assets/service-hotel-ai.webp",
-      "generated_original": "exec-389b910d-ddbf-433e-a652-b0f658c900ce.png",
-      "type": "AI生成イメージ。実店舗・実施術・実客室の写真ではありません。撮影後に差し替え予定。"
+      "file": "assets/service-hotel-real.webp",
+      "proposal_photo_id": "36",
+      "original": "LINE_ALBUM_素材写真_261117_13.jpg",
+      "original_sha256": "5d439d4503118e13b162b5a71cc2517a10694126f96a0265ea10af11106db37f",
+      "type": "ユーザー提供のビスケット実写。確認用ページへの掲載。"
     },
     {
       "service": "daycare",
-      "file": "assets/service-daycare-ai.webp",
-      "generated_original": "exec-7a4ddd57-a938-4cfd-b5a3-e30c0d851929.png",
-      "type": "AI生成イメージ。実店舗・実施術・実客室の写真ではありません。撮影後に差し替え予定。"
+      "file": "assets/service-daycare-real.webp",
+      "proposal_photo_id": "21",
+      "original": "LINE_ALBUM_素材写真_261117_22.jpg",
+      "original_sha256": "ac9660f1e3b0197355839fc42f5ea5112b5142631c2b4cc451671d0af510e67b",
+      "type": "ユーザー提供のビスケット実写。確認用ページへの掲載。"
     }
+  ],
+  "pending_confirmation": [
+    "写真21の場所が一時預かりにも使われることの確認。キャプションは店内の様子とし、特定の部屋名は付けていない。"
   ]
 }

@@ -7,6 +7,6 @@ Before editing site content or publishing, read [the agreed editorial policy](do
 - Omit haircut names in the gallery; both currently uploaded dogs are Toy Poodles. Do not guess which photo is Coco or Rui.
 - Changes on main automatically deploy the pages.dev review site. Routine review-site updates remain authorized without repeated approval. Formal launch/domain migration requires the chairman's final content/photo review; the earlier automatic-deployment instruction does not waive that requirement.
 - If a later user instruction conflicts with the agreed policy, point out the specific conflict before making the dependent change. If the user explicitly changes the direction, update the policy accordingly.
-- Existing generated service images and the Hayashi-focused introduction predate the policy. They remain items to correct before formal launch; the policy-recording task itself does not authorize an unsolicited site redesign.
+- Generated service images were replaced with supplied Biscuit photos and removed from served assets on 2026-11-17. Keep AI facility images out of the site. The Hayashi-focused introduction still needs revision under the agreed policy before formal launch; do not identify staff in new photos as Hayashi without confirmation.
 
 Use the existing isolated checkout; do not create a worktree unless requested. Preserve user changes. This is a static site; no build is required.
