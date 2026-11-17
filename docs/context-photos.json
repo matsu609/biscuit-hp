@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-17 JST",
+  "intent": "ユーザー指定により既存の写真空き枠は使用せず、構成に合わせて提供実写4枚を追加。",
+  "photos": [
+    {
+      "file": "assets/salon-shampoo.webp",
+      "original": "LINE_ALBUM_素材写真_261117_6.jpg",
+      "photo_id": "01",
+      "source_sha256": "f8a7320ed8ffbfc39b821d27132653e8b8c623eb524daa77f2eebffcb085dcd9",
+      "placement": "初めての方へ",
+      "caption": "シャンプー中の様子"
+    },
+    {
+      "file": "assets/salon-sofa.webp",
+      "original": "LINE_ALBUM_素材写真_261117_20.jpg",
+      "photo_id": "31",
+      "source_sha256": "51b15ae8a0bf36c345f82ad5e66e94a7028efc49902a829b049c2c6b0ff0448f",
+      "placement": "初めての方へ",
+      "caption": "ソファのある店内"
+    },
+    {
+      "file": "assets/salon-entrance.webp",
+      "original": "LINE_ALBUM_素材写真_261117_9.jpg",
+      "photo_id": "32",
+      "source_sha256": "867d344985b1238f1a34efcda51a86be43560c98cd2ae6e6427b8b97cdd52f6a",
+      "placement": "店舗情報・アクセス",
+      "caption": "店舗の外観・入口"
+    },
+    {
+      "file": "assets/salon-street.webp",
+      "original": "LINE_ALBUM_素材写真_261117_3.jpg",
+      "photo_id": "06",
+      "source_sha256": "a0ae5262a90b06477ecbde3bf33f67e4f72df7d4aba051e59a804b6529fc6903",
+      "placement": "店舗情報・アクセス",
+      "caption": "お店の前の通り"
+    }
+  ]
+}

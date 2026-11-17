@@ -298,6 +298,19 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
 .gallery-entry strong{display:block;font-size:14px}
 .gallery-entry figcaption span{display:block;font-size:13px;color:var(--accent-d);margin-top:3px}
 @media(max-width:600px){.gallery-entry figcaption{padding:10px}.gallery-entry strong{font-size:12px}.gallery-entry figcaption span{font-size:12px}}
+/* Real photos supplement the visit and access guidance, independently of pending photo slots. */
+.context-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:28px}
+.context-photo{margin:0;background:var(--soft);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.context-photo img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.context-photo figcaption{padding:11px 16px;font-size:13px;font-weight:500;color:var(--muted)}
+.context-photo.photo-31 img{object-position:center 65%}
+.arrival-photos .context-photo img{aspect-ratio:3/2}
+.context-photo.photo-32 img{object-position:center bottom}
+@media(max-width:600px){
+ .context-photos{grid-template-columns:1fr;gap:16px;margin-top:22px}
+ .context-photo figcaption{padding:10px 14px;font-size:12px}
+ .arrival-photos .context-photo img{aspect-ratio:4/3}
+}
 </style>
 </head>
 <body>
@@ -461,6 +474,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
   <div class="wrap">
     <div class="eyebrow">for first time</div>
     <h2 class="sec">初めての方へ</h2>
+    <div class="context-photos visit-photos" aria-label="お手入れと店内の風景"><figure class="context-photo photo-01"><img src="assets/salon-shampoo.webp" alt="ビスケットでシャンプーを受けるワンちゃん" width="1400" height="1050" loading="lazy" decoding="async"><figcaption>シャンプー中の様子</figcaption></figure><figure class="context-photo photo-31"><img src="assets/salon-sofa.webp" alt="ビスケットのソファに座るワンちゃんたち" width="934" height="1400" loading="lazy" decoding="async"><figcaption>ソファのある店内</figcaption></figure></div>
     <ol class="steps">
       <li><h4>ご予約</h4><p><a href="https://lin.ee/vAalwNK" target="_blank" rel="noopener noreferrer">公式LINEからのご予約をおすすめしています。</a>施術・接客中はお電話に出られない場合がございます。</p></li>
       <li><h4>ご来店・カウンセリング</h4><p>仕上がりのご希望や、体調・苦手なことを伺います。</p></li>
@@ -502,6 +516,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
   <div class="wrap">
     <div class="eyebrow">access</div>
     <h2 class="sec">店舗情報・アクセス</h2>
+    <p class="lead">白い外壁とガラス扉が目印です。ご来店前に、お店の外観をご確認ください。</p>
+    <div class="context-photos arrival-photos" aria-label="店舗の外観と周辺の風景"><figure class="context-photo photo-32"><img src="assets/salon-entrance.webp" alt="ビスケットの白い外壁とガラス扉の入口" width="1050" height="1400" loading="lazy" decoding="async"><figcaption>店舗の外観・入口</figcaption></figure><figure class="context-photo photo-06"><img src="assets/salon-street.webp" alt="ビスケットの入口とお店の前の通り" width="1400" height="849" loading="lazy" decoding="async"><figcaption>お店の前の通り</figcaption></figure></div>
     <div class="access">
       <div><iframe src="https://maps.google.com/maps?q=%E3%83%9A%E3%83%83%E3%83%88%E3%82%B5%E3%83%AD%E3%83%B3%E3%83%93%E3%82%B9%E3%82%B1%E3%83%83%E3%83%88%20%E4%B8%89%E7%94%B0&output=embed" loading="lazy" title="地図"></iframe><p class="note-s"><a href="https://www.google.com/maps/search/?api=1&amp;query=東京都港区三田2-12-1+ペットサロンビスケット" target="_blank" rel="noopener noreferrer">Googleマップで地図を開く ↗</a></p></div>
       <dl>
