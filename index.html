@@ -311,6 +311,19 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
  .context-photo figcaption{padding:10px 14px;font-size:12px}
  .arrival-photos .context-photo img{aspect-ratio:4/3}
 }
+/* Keep step labels intact and isolate portrait text from circle sizing. */
+.step-word{display:inline-block;white-space:nowrap}
+.hero-photo .sub{padding:0;min-width:0;min-height:0}
+.portrait-content{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:12px;line-height:1.5}
+.portrait-content svg{width:24px;height:24px;flex-shrink:0}
+@media(max-width:600px){
+ .steps{gap:12px}
+ .steps li{padding:20px 12px}
+ .steps h4{font-size:clamp(15px,4.6vw,18px)}
+ .portrait-content{padding:6px;gap:2px;font-size:10px;line-height:1.35}
+ .portrait-content b{font-size:11px}
+ .portrait-content svg{width:18px;height:18px}
+}
 </style>
 </head>
 <body>
@@ -353,7 +366,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
       </div>
       <div class="hero-photo">
         <div class="main hero-image"><img src="assets/hero-toy-poodle.jpg" alt="ふんわりとカットされたトイ・プードル" width="1108" height="1477" fetchpriority="high" decoding="async"></div>
-        <div class="ph sub"><svg><use href="#cam"/></svg><b>撮影予定</b>スタッフと<br>ワンちゃん</div>
+        <div class="ph sub"><div class="portrait-content"><svg aria-hidden="true"><use href="#cam"/></svg><b>撮影予定</b><span>スタッフと<br>ワンちゃん</span></div></div>
       </div>
     </div>
     <dl class="info">
@@ -477,8 +490,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent-d);outline-o
     <div class="context-photos visit-photos" aria-label="お手入れと店内の風景"><figure class="context-photo photo-01"><img src="assets/salon-shampoo.webp" alt="ビスケットでシャンプーを受けるワンちゃん" width="1400" height="1050" loading="lazy" decoding="async"><figcaption>シャンプー中の様子</figcaption></figure><figure class="context-photo photo-31"><img src="assets/salon-sofa.webp" alt="ビスケットのソファに座るワンちゃんたち" width="934" height="1400" loading="lazy" decoding="async"><figcaption>ソファのある店内</figcaption></figure></div>
     <ol class="steps">
       <li><h4>ご予約</h4><p><a href="https://lin.ee/vAalwNK" target="_blank" rel="noopener noreferrer">公式LINEからのご予約をおすすめしています。</a>施術・接客中はお電話に出られない場合がございます。</p></li>
-      <li><h4>ご来店・カウンセリング</h4><p>仕上がりのご希望や、体調・苦手なことを伺います。</p></li>
-      <li><h4>シャンプー・カット</h4><p>一頭ずつ、ていねいにお手入れします。</p></li>
+      <li><h4><span class="step-word">ご来店・</span><wbr><span class="step-word">カウンセリング</span></h4><p>仕上がりのご希望や、体調・苦手なことを伺います。</p></li>
+      <li><h4><span class="step-word">シャンプー・</span><wbr><span class="step-word">カット</span></h4><p>一頭ずつ、ていねいにお手入れします。</p></li>
       <li><h4>お迎え</h4><p>当日の様子をお伝えしてお渡しします。</p></li>
     </ol>
     <div class="bring">
